@@ -1,9 +1,11 @@
-﻿server:
+﻿# path: src/main/resources/config/discovery-server.yml
+
+server:
   port: 8761
 
 eureka:
   instance:
-    hostname: hostname
+    hostname: discovery-server
   # standalone mode
   client:
     registerWithEureka: false
