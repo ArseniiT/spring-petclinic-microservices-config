@@ -19,7 +19,8 @@ spring:
     activate:
       on-profile: default
   zipkin:
-    baseUrl: http://tracing-server:9411
+    enabled: false
+    # baseUrl: http://tracing-server:9411
 server:
   port: 8083
 eureka:
